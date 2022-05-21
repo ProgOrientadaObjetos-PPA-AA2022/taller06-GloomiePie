@@ -12,7 +12,13 @@ public class Doctor {
     
     private String nombreDoctor;
     private String especialidad;
-    private double [] sueldoMensual;
+    private double sueldoMensual;
+    
+    public Doctor(String nDoctor, String especial, double sMensual){
+        nombreDoctor = nDoctor;
+        especialidad = especial;
+        sueldoMensual = sMensual;
+    }
     
     public void establecerNombreDoctor(String c){
         nombreDoctor = c;
@@ -21,7 +27,7 @@ public class Doctor {
         especialidad = c;
     }
     public void establecerSueldoMensual(double c){
-        sueldoMensual[3] = c;
+        sueldoMensual = c;
     }
     public String obtenerNombreDoctor(){
         return nombreDoctor;
