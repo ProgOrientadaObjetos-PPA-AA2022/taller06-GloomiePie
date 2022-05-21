@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package taller06;
+
+/**
+ *
+ * @author SALA I
+ */
+public class Hospital {
+    
+    private CiudadHospital ciudadhospital;
+    private Doctor doctor;
+    private Enfermero enfermero;
+    private double sueldoTotal;
+    
+    
+    
+}
